@@ -455,7 +455,7 @@ ul {
   max-height: 40px;
   max-width: 289px;
   border: 2px;
-  background-color: #77ba04;
+  background-color: #9bcc37;
   color: white;
   padding-bottom: 0px;
   transition: background-color 0.5s ease;
@@ -463,6 +463,10 @@ ul {
 .frame6 .headline-btn {
   color: #ffffff;
   padding-top: 20px;
+}
+.frame6 .headline-btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: #77ba04;
 }
 .frame7 {
   max-width: 1280px;
