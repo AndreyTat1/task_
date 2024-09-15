@@ -25,12 +25,11 @@ scrollContainer.addEventListener("mousemove", (e) => {
   if (!isDown) return;
   e.preventDefault();
   const x = e.pageX - scrollContainer.offsetLeft;
-  const walk = (x - startX) * 5; // Скорость прокрутки
+  const walk = (x - startX) * 5; 
   scrollContainer.scrollLeft = scrollLeft - walk;
 });
 
-// Добавляем обработчик для прокрутки колесом мыши
 scrollContainer.addEventListener("wheel", (e) => {
   e.preventDefault();
-  scrollContainer.scrollLeft += e.deltaY; // Используем deltaY для горизонтальной прокрутки
+  scrollContainer.scrollLeft += e.deltaY; 
 });
